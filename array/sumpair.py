@@ -26,6 +26,7 @@ def findPairHash(nums, target):
             return
         d[el] = i
     print("pair not found")
+    print("pair not found")
 
 
 if __name__ == "__main__":
