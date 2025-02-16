@@ -1,9 +1,11 @@
+#idea brute force check all pairs literally
 def findPair(nums, target):
     for i in range(len(nums)):
         for j in range(len(nums)):
             if nums[i] + nums[j] == target:
                 print(f'Pair found {nums[i]} and {nums[j]}')
 
+#iterator from low to high and from high to low until they meet each other
 def findPairSort(nums, target):
     nums.sort()
 
@@ -18,6 +20,7 @@ def findPairSort(nums, target):
             high = high - 1
     print("no pair found")
 
+#idea, if found the partner before in the set, then yes!
 def findPairHash(nums, target):
     d = {}
     for i, el in enumerate(nums):

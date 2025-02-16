@@ -1,3 +1,4 @@
+#main idea: as long as the accumulator comes back at a value in the past, it means the last sublist is a zero sum
 def zerosum(nums):
     accuset = set()
     total = 0
