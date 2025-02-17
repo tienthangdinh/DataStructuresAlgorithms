@@ -21,6 +21,7 @@ def findPairSort(nums, target):
     print("no pair found")
 
 #idea, if found the partner before in the set, then yes!
+#to learn: initializing a set and find element in set, iterate over a list with index using enumerate
 def findPairHash(nums, target):
     d = {}
     for i, el in enumerate(nums):

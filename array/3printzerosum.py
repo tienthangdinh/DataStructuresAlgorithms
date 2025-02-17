@@ -1,3 +1,5 @@
+#to learn: dictionary setdefault value if key not yet initialized, and value is a list
+#upgrade from set from exercise 2
 def insertvalue(dict, key, value):
     dict.setdefault(key, []).append(value)
 
